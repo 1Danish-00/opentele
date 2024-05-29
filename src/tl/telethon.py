@@ -145,6 +145,7 @@ class TelegramClient(telethon.TelegramClient, BaseObject):
         system_version: str = None,
         app_version: str = None,
         lang_code: str = "en",
+        lang_pack: str = "en",
         system_lang_code: str = "en",
         loop: asyncio.AbstractEventLoop = None,
         base_logger: Union[str, logging.Logger] = None,
